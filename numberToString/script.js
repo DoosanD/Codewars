@@ -9,7 +9,6 @@ console.log(typeof x);
 
 // Return a number of the string now!
 const stringToNumber = function (str) {
-  // put your code here
   return Number(str);
 };
 
