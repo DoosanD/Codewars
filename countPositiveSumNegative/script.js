@@ -14,7 +14,7 @@ function countPositivesSumNegatives(input) {
     getNegatives = input.filter((x) => x < 0).reduce((a, b) => a + b);
     // and filter positive numbers to see length
     getPositives = input.filter((x) => x > 0);
-    // return result with length of positive numbers
+    // return result with length of positive numbers.
     return [getPositives.length, getNegatives];
   }
 }
