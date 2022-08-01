@@ -21,7 +21,7 @@ function printerError(s) {
   let error = 0;
   let len = s.length;
   for (let i = 0; i < s.length; i++) {
-    if (s[i].match(/[o-z]/g)) {
+    if (s[i].match(/[n-z]/g)) {
       error++;
     }
   }
